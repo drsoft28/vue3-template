@@ -9,7 +9,7 @@ import {
   loadLocaleMessages,
 } from '@/plugins/Vue-i18n'
 import Cookies from 'js-cookie'
-import vuetify from '@/plugins/vuetify'
+import { vuetify } from '@/plugins/vuetify'
 const isTesting = import.meta.env.VITE_APP_TEST
 export const useAuthStore = defineStore('auth', {
   state: () => ({
