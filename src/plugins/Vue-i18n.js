@@ -44,7 +44,7 @@ const i18n = createI18n({
 })
 // Dynamically load a locale
 export const loadLocaleMessages = async (locale) => {
-  const messages = await import(`@/locales/${locale}.json`)
+  const messages = await import(`../locales/${locale}.json`)
   i18n.global.setLocaleMessage(locale, messages.default)
 }
 // Dynamically load a default locale

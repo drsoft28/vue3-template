@@ -1,11 +1,11 @@
 <template>
-  <main class="d-flex justify-content-center align-items-center vh-100">
-    <div class="card p-4 shadow" style="width: 100%; max-width: 400px">
+  <div class="d-flex justify-center align-items-center vh-100">
+    <div class="card p-4 mt-5 mx-auto shadow" style="width: 100%; max-width: 400px">
       <h3 class="text-center mb-4">Login</h3>
       <form @submit.prevent="handleLogin">
         <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input
+          <v-text-field
+            label="Email address"
             type="email"
             id="email"
             v-model="email"
@@ -19,8 +19,8 @@
           </div>
         </div>
         <div class="mb-3">
-          <label for="password" class="form-label">Password</label>
-          <input
+          <v-text-field
+            label="Password"
             type="password"
             id="password"
             v-model="password"
@@ -38,7 +38,7 @@
         <a href="#" @click.prevent="forgotPassword">Forgot password?</a>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script setup>
