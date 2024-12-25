@@ -11,5 +11,5 @@
   </PageTheme>
 </template>
 <script setup>
-import PageTheme from '@/layouts/admin/vuetify/PageTheme.vue'
+import PageTheme from '@/layouts/vuetify/PageTheme.vue'
 </script>

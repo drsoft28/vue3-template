@@ -8,5 +8,5 @@
   </PageTheme>
 </template>
 <script setup>
-import PageTheme from '@/layouts/admin/sb-admin-2/PageTheme.vue'
+import PageTheme from '@/layouts/vuetify/PageTheme.vue'
 </script>
